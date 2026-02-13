@@ -33,3 +33,11 @@
     grid-row: 2 / 4;
     background-color: orange;
 }
+
+.grid-item::before {
+    content: "ez bekerül a HTML-be";
+}
+
+.grid-item::after {
+    content: "ez is bekerül a weboldalBA";
+}
